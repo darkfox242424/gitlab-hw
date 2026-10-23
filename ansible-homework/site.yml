@@ -1,6 +1,0 @@
----
-- name: Задание 3 — Развертывание Apache через идемпотентную роль
-  hosts: all
-  become: true
-  roles:
-    - apache_web
